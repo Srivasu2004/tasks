@@ -1,0 +1,110 @@
+1. What is Excel?
+
+Microsoft Excel is a spreadsheet application developed by [Microsoft](https://www.microsoft.com?utm_source=chatgpt.com) used to store, organize, calculate, and analyze data using rows and columns.
+
+---
+
+2. What is a workbook?
+
+A workbook is an Excel file that contains one or more worksheets (spreadsheets).
+Example: `sales.xlsx` is a workbook.
+
+---
+
+3. What is a spreadsheet?
+
+A spreadsheet is a page made up of rows and columns used to enter and manage data. Each box is called a cell.
+
+---
+
+4. When was Excel developed?
+
+Excel was first developed in **1985** for Apple Macintosh computers.
+
+---
+
+5. Why is Excel used?
+
+Excel is used for:
+
+* Data entry
+* Calculations
+* Creating charts and graphs
+* Data analysis
+* Budgeting
+* Reporting
+* Managing records
+
+---
+
+6. What is the difference between Excel and MySQL?
+
+| Excel                       | MySQL                           |
+| --------------------------- | ------------------------------- |
+| Spreadsheet software        | Database management system      |
+| Stores data in worksheets   | Stores data in databases/tables |
+| Best for small-medium data  | Best for large data             |
+| Easy GUI interface          | Uses SQL queries                |
+| Used for analysis/reporting | Used for backend data storage   |
+
+MySQL is mainly used for managing databases, while Excel is mainly used for spreadsheet operations.
+
+---
+
+7. What are the uses of Excel?
+
+Uses of Excel include:
+
+* Attendance management
+* Salary calculations
+* Inventory management
+* Data visualization
+* Financial analysis
+* Creating dashboards
+* Student records
+* Business reporting
+
+---
+
+8. How often are Excel versions updated?
+
+Microsoft regularly updates Excel:
+
+* Major versions usually come every few years
+* Microsoft 365 Excel receives frequent monthly updates and new features
+
+---
+
+9. When did Excel start?
+
+Excel officially started in **1985** with its first release for Macintosh systems.
+
+---
+
+ 10. Who introduced Excel?
+
+Excel was introduced by [Microsoft](https://www.microsoft.com?utm_source=chatgpt.com).
+
+---
+
+11. What was the first version of Excel?
+
+The first version was **Excel 1.0**, released in 1985 for Apple Macintosh.
+
+---
+
+ 12. How can we check the Excel version?
+
+ Steps:
+
+1. Open Excel
+2. Click **File**
+3. Select **Account** or **Help**
+4. You can see the version details there
+
+Example:
+
+* Excel 2016
+* Excel 2019
+* Excel 2021
+* Microsoft 365 Excel
