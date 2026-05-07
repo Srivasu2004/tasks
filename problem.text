@@ -1,0 +1,203 @@
+1. What is a function in Python?
+
+A function is a block of reusable code that performs a specific task. Functions help organize programs into smaller, manageable parts.
+
+Example:
+
+def greet():
+    print("Hello")
+2. Why are functions used in programming?
+
+Functions are used to:
+
+Reduce code repetition
+Improve readability
+Make programs easier to debug
+Reuse code multiple times
+Divide large programs into smaller modules
+3. What is the syntax for defining a function in Python?
+
+Syntax:
+
+def function_name(parameters):
+    # function body
+    return value
+
+Example:
+
+def add(a, b):
+    return a + b
+4. What is the purpose of the def keyword in Python?
+
+The def keyword is used to define (create) a function in Python.
+
+Example:
+
+def display():
+    print("Welcome")
+5. What is the difference between a function definition and a function call?
+Function Definition	Function Call
+Creates the function	Executes the function
+Uses def keyword	Uses function name with parentheses
+Stores logic	Runs logic
+
+Example:
+
+# Function Definition
+def greet():
+    print("Hello")
+
+# Function Call
+greet()
+Intermediate Theory Questions
+6. What are parameters and arguments in Python functions?
+Parameters are variables listed in the function definition.
+Arguments are values passed during the function call.
+
+Example:
+
+def add(a, b):   # a and b are parameters
+    return a + b
+
+add(10, 20)      # 10 and 20 are arguments
+7. What is the difference between formal parameters and actual parameters?
+Formal Parameters	Actual Parameters
+Variables in function definition	Values passed during function call
+Receive data	Send data
+
+Example:
+
+def display(name):   # formal parameter
+    print(name)
+
+display("Vasu")      # actual parameter
+8. What is a return statement in a function?
+
+The return statement sends a value back from the function to the caller.
+
+Example:
+
+def square(n):
+    return n * n
+9. What happens if a Python function does not have a return statement?
+
+If no return statement is given, Python automatically returns None.
+
+Example:
+
+def test():
+    print("Hello")
+
+result = test()
+print(result)
+
+Output:
+
+Hello
+None
+10. What are default arguments in Python functions?
+
+Default arguments are parameters with predefined values. If no value is passed, the default value is used.
+
+Example:
+
+def greet(name="Guest"):
+    print("Hello", name)
+
+greet()
+greet("Vasu")
+
+Output:
+
+Hello Guest
+Hello Vasu
+Advanced Theory Questions
+11. What are keyword arguments in Python?
+
+Keyword arguments are passed using parameter names during function calls.
+
+Example:
+
+def student(name, age):
+    print(name, age)
+
+student(age=21, name="Vasu")
+
+Benefits:
+
+Improves readability
+Order of arguments does not matter
+12. What are variable-length arguments (*args and **kwargs) in Python functions?
+*args
+
+Used to pass multiple positional arguments.
+
+Example:
+
+def total(*numbers):
+    print(sum(numbers))
+
+total(1, 2, 3, 4)
+**kwargs
+
+Used to pass multiple keyword arguments.
+
+Example:
+
+def details(**data):
+    print(data)
+
+details(name="Vasu", age=21)
+13. What is the difference between local variables and global variables in functions?
+Local Variable	Global Variable
+Declared inside function	Declared outside function
+Accessible only inside function	Accessible throughout program
+
+Example:
+
+x = 100   # global variable
+
+def test():
+    y = 50   # local variable
+    print(x)
+    print(y)
+
+test()
+14. What are recursive functions in Python?
+
+A recursive function is a function that calls itself repeatedly until a condition is met.
+
+Example:
+
+def factorial(n):
+    if n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+print(factorial(5))
+
+Output:
+
+120
+15. What are lambda (anonymous) functions in Python?
+
+Lambda functions are small anonymous functions created using the lambda keyword.
+
+Syntax:
+
+lambda arguments : expression
+
+Example:
+
+square = lambda x: x * x
+print(square(5))
+
+Output:
+
+25
+
+Features:
+
+Short and simple
+No need for def
+Mostly used with functions like map(), filter(), and
